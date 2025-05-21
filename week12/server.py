@@ -68,7 +68,7 @@ if __name__ == '__main__':
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--address', type=str, default='127.0.0.1')
+    parser.add_argument('--address', type=str, default='211.183.3.129')
     parser.add_argument('--port', type=int, default=3040)
     FLAGS, _ = parser.parse_known_args()
     main()
